@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.my-wrap {
+	font-family: "SegoeUIRegular", serif;
+	font-size: 14px;
+	color:#404040;
+}
+
+.my-lists {
+    position: relative;
+    max-height: 250px;
+    overflow-y: auto;
+    background: #ffffff;
+    line-height: 20px;
+    z-index: 1500;
+    border: 1px solid #D0D0D0;
+    display: block;
+    width: 250px;
+    -moz-box-shadow:    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-item {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.active {
+    background: #5099DB;
+    color: #ffffff;
+}
+
+.deactivе {
+    color: #d2d5d2;
+}
+
+.my-error {
+    color: #E3071C;
+	position: relative;
+}
+
+.my-wrap input {
+    border: 2px solid #404040;
+    width: 238px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 5px;
+    font-family: "SegoeUIRegular",serif;
+}
+
+.my-wrap input:hover {
+    border-top: 2px solid #888888;
+}
