@@ -7,7 +7,7 @@
         this.options = $.extend({
             limit: 5,
             selectPlaceholder: 'Начните вводить',
-            errorMsg: 'Ошибка, выбирете город из списка',
+            errorMsg: 'Ошибка, выберите город из списка',
             notFoundMsg: 'Не найдено',
             data: [],
             filename: 'kladr.json',

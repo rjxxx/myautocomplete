@@ -14,7 +14,7 @@
 }
 
 .my-lists {
-    position: relative;
+    position: absolute;
     max-height: 250px;
     overflow-y: auto;
     background: #ffffff;
@@ -23,7 +23,6 @@
     border: 1px solid #D0D0D0;
     display: block;
     width: 250px;
-    -moz-box-shadow:    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -44,7 +43,7 @@
 
 .my-error {
     color: #E3071C;
-	position: relative;
+	position: absolute;
 }
 
 .my-wrap input {
